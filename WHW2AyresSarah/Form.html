@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Form</title>
+<style>
+
+    fieldset {
+        color:white;
+        background-color:rgb(36, 142, 255);
+    }
+
+    legend {
+        color:white;
+        padding: 5px 10px;
+    
+
+    
+    }
+
+    input [type=button], input[type=submit], input[type=reset]  {
+        background-color: rgb(21, 255, 0);
+        border:none;
+        color:black;
+        padding: 16x 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor:pointer;
+
+}
+
+
+    div{
+        background-color:rgb(36, 142, 255);
+        width:300px;
+        padding:50px;
+        margin:auto;
+        color:white;
+    }
+
+
+    textarea {
+        background-color:yellow;
+    }
+</style>
+</head>
+<body>
+<!--Your HTML tags will start here-->
+<h1> <img src="web.jpeg" style="float:left;width:20%;"><br>Welcome to My Website!!!</h1>
+<br>
+<br>
+    <a href="index.html">Home</a>
+    <a href="Table.html">Content</a>
+    <a href="Form.html">Form</a>
+    <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiJj-76u7yIAxV0mokEHZWmDVMQPAgI">Google</a>
+<br>
+<br>
+<div>
+    <h1>Programming Survey</h1>
+<form action="/action_page.php">
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname">
+    <br>
+    <br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+    <br>
+      <label for="programming languages">Select your favorite Programming Language:</label>
+      <br>
+      <select id="programming language" name="programming language">
+         <option value="JavaScript">JavaScript</option>
+         <option value="C++">C++</option>
+         <option value="Python">Python</option>
+      </select>
+   <fieldset>
+    <legend>Years of Programming Experience</legend>
+       <input type="checkbox" id="0-2years" name="0-2years"
+    value="0-2">
+       <label for="0-2years">0-2 Years</label><br>
+       <input type="checkbox" id="3-5years" name="3-5years"
+    value="3-5">
+       <label for="3-5years">3-5 Years</label><br>
+       <input type="checkbox" id="6-10years" name="6-10years"
+    value="6-10years">
+       <label for="6-10years">6-10 Years</label><br>
+       <input type="checkbox" id="10+years" name="10+years"
+    value="10+ years">
+       <label for="10+years">10+ Years</label><br>  
+       </fieldset>     
+    <br>
+    <br>
+    <textarea rows="10" cols="30" placeholder="Enter your Comment Here..."></textarea>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</div>
+
+
+<!--Your HTML tags will end here-->
+
+</body>
+
+</html>
